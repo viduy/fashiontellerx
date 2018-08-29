@@ -101,3 +101,27 @@ a {
   bottom: 0;
   left: 0;
 }
+
+.Hero .logos {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 40px;
+  margin: 100px 0;
+  justify-items: center;
+}
+
+.Hero .logos img {
+  transition: 100ms;
+}
+
+.Hero .logos img:hover {
+  transform: translateY(-10px);
+  transition-delay: 1000ms;
+  transition: 500ms;
+}
+
+@media (max-width: 640px) {
+  .Hero .logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
