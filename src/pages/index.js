@@ -13,7 +13,7 @@ const IndexPage = () => (
           This is the center of fashion<br />
           Created by Viduy
         </p>
-        <Link to="/home/">go to discover</Link>
+        <Link to="#discover">go to discover</Link>
         <div className="logos">
           <img src={require("../images/logo-sketch.png")} width="50" alt="" />
           <img src={require("../images/logo-figma.png")} width="50" alt="" />
@@ -42,7 +42,7 @@ const IndexPage = () => (
         </svg>
       </div>
     </div>
-    <div className="Cards">
+    <div className="Cards" id="discover">
       <h2>New Comming</h2>
       <div className="CardGroup">
         <Card
