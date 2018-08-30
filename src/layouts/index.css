@@ -141,6 +141,7 @@ a {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
   justify-items: center;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 @media (max-width:1060px) {
@@ -153,4 +154,10 @@ a {
   .CardGroup {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+.articleWrap {
+  position: relative;
+  padding-top: 50px;
+  overflow: hidden;
 }
