@@ -3,6 +3,7 @@ import Link from "gatsby-link";
 import Card from "../components/Card";
 import Section from "../components/Section";
 import Wave from "../components/Wave";
+import Layout from "../components/layout";
 
 const IndexPage = () => (
   <div>
@@ -33,27 +34,31 @@ const IndexPage = () => (
         <Card
           title="React for Desingers"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")} />
+          image={require("../images/wallpaper.jpg")}
+        />
         <Card
           title="React for Desingers"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")} />
+          image={require("../images/wallpaper.jpg")}
+        />
         <Card
           title="React for Desingers"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")} />
+          image={require("../images/wallpaper.jpg")}
+        />
         <Card
           title="React for Desingers"
           text="12 sections"
-          image={require("../images/wallpaper.jpg")} />
+          image={require("../images/wallpaper.jpg")}
+        />
       </div>
     </div>
     <Section
       image={require("../images/wallpaper2.jpg")}
       logo={require("../images/logo-react.png")}
-      title='React for Designer'
-      text='Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify.'
-     />
+      title="React for Designer"
+      text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify."
+    />
   </div>
 );
 
