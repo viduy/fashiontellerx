@@ -12,21 +12,22 @@ const CellGroup = styled.div`
 const CellImage = styled.div`
     width: 60px;
     height: 60px;
-    background: #212C4F;
+    background: #212c4f;
     border-radius: 10px;
     background-image: url(${props => props.image});
     background-size: 60px;
 `
 
 const CellTitle = styled.div`
+    color: white;
     font-size: 24px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding: 30px 0;
 `
 
 const Cell = props => (
     <CellGroup>
-        <CellImage image={props.image} />
+        <CellImage image={props.image}></CellImage>
         <CellTitle>{props.title}></CellTitle>
     </CellGroup>
 );
