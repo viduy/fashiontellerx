@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 import Card from "../components/Card";
 import Section from "../components/Section";
 import Wave from "../components/Wave";
-import Layout from "../components/layout";
+import Layout from "../Layouts/index.js";
 import staticdata from "../../staticdata.json";
 import Cell from "../components/Cell";
 import styled from "styled-components";
